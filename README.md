@@ -42,13 +42,14 @@ Follow these steps if you want Ollama WebUI to use a local .gguf model.
    Update docker-compose.yml:
     ```
     environment:
-    - OLLAMA_BASE_URL=http://ollama:11434
-    - DEFAULT_MODEL=mylocalmodel
+        - OLLAMA_BASE_URL=http://ollama:11434
+        - DEFAULT_MODEL=mylocalmodel
     ```
 5. Restart everything
-   `    docker compose down
+    ```
+    docker compose down
     docker compose up -d
-   `
-   Open the WebUI:
-   http://localhost:3000
-   Your local model should now be available and set as default.
+    ```
+    Open the WebUI:
+    http://localhost:3000
+    Your local model should now be available and set as default.
