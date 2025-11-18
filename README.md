@@ -1,1 +1,1 @@
-# line-hackathon-chatui
+# line-hackathon-chat-demo
